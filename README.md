@@ -1,2 +1,16 @@
 # Mathematical-modelling-of-gene-expression
 This is the repository of the TFM work "Mathematical modelling and numerical simulation of gene expression patterns in transcriptional networks with differential equations".
+
+## Abstract
+This work shows the potential of differential equations in modelling gene regulatory networks, highlighting their ability to capture complex dynamics and qualitative properties essential for understanding biological systems. We use a 6-dimensional model that has been simplified using biologically plausible approximations, allowing detailed comparisons with the full model, and show that the simplifications do not compromise the accuracy. The analysis focused on the study of the constitutive expression model of the gene y obtained from the simplified model and the results were compared with the full model, specifically for the case in which the transcription factor X is equal to zero. These studies revealed consistent behaviors that validate the robustness of the simplified model and it used. In addition, we examined the qualitative properties of the full model and the simplified model, identifying for values of the transcription factor X that are non-zero and equal to zero, equilibrium points and performing a stability analysis to determine whether these points are stable or unstable, applying the Lyapunov Theorem. The robustness and sensitivity of the variables of the simplified model with respect to their parameter were studied to find out which parameters have the greatest influence on the model. Michaelis-Menten dynamic and autoregulation were applied in the constitutive expression model to study positive and negative autoregulation, providing a detailed view of the dynamics of these processes, including their response time patterns, observing that for negative autoregulation it accelerates the response time and in case of positive autoregulation, a delay of the time response is observed. The use of computational tools, specifically MATLAB and, subsequent verification of the results with COPASI, was crucial to study the model, obtain equilibrium points, perform the stability analysis and study the sensitivity coefficient.
+
+The code files uploaded in this repository are the MATLAB functions to study the 6-dimensional model, the simplified model, the constitutive expression model and the System of equations used to study positive and negative autoregulation:
+
+full_and_simplified_model.m -> This MATLAB file contains the results of the analysis of the 6-dimensional and simplified models, the obtaining of the equilibrium points and the study of the stability of the equilibrium points.
+
+full_and_constitutive_expression.m -> This MATLAB file contains the results of the analysis of the 6-dimensional models for X=0 and constitutive expression of the gene y, the obtaining of the equilibrium points and the study of the stability of the equilibrium points.
+
+robust_sensitivity_simplified_model.m -> This MATLAB file contains the results of the study of the sensitivity coefficients of the simplified model to study how the equilibrium points of the simplified model vary with respect to their respective parameters. In the work we focus on how the transcription factor parameter X affects the variables of the model.
+
+
+
