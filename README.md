@@ -12,5 +12,6 @@ full_and_constitutive_expression.m -> This MATLAB file contains the results of t
 
 robust_sensitivity_simplified_model.m -> This MATLAB file contains the results of the study of the sensitivity coefficients of the simplified model to study how the equilibrium points of the simplified model vary with respect to their respective parameters. In the work we focus on how the transcription factor parameter X affects the variables of the model.
 
-simplied_model.cps -> This COPASI file contains the simplified model to compare the results of the sensitivity coefficients and the equilibrium points of the model.
+simplied_model.cps -> This COPASI file contains the simplified model to compare the results of the sensitivity coefficients and the equilibrium points of the model with the results of the MATLAB files.
 
+autoregulacion.cps -> This COPASI file contains the system of equations to study positive and negative autoregulation, together with the constitutive expression, to contrast the results of the sensitivity coefficients and the equilibrium points of the model with the results of the MATLAB files.
