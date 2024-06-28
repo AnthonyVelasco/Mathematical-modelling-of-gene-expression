@@ -12,6 +12,8 @@ full_and_constitutive_expression.m -> This MATLAB file contains the results of t
 
 robust_sensitivity_simplified_model.m -> This MATLAB file contains the results of the study of the sensitivity coefficients of the simplified model to study how the equilibrium points of the simplified model vary with respect to their respective parameters. In the work we focus on how the transcription factor parameter X affects the variables of the model.
 
+michaelis_menten_qualitative.m -> This MATLAB file studies positive and negative self-regulation, comparing the autoregulation with the constitutive expression, applying the Michaelis-Menten dynamics. The constitutive expression, positive autoregulation and negative autoregulation are studied separately, obtaining the equilibrium points, studying the stability of the points, the sensitivity coefficients and the response time.
+
 simplied_model.cps -> This COPASI file contains the simplified model to compare the results of the sensitivity coefficients and the equilibrium points of the model with the results of the MATLAB files.
 
 autoregulacion.cps -> This COPASI file contains the system of equations to study positive and negative autoregulation, together with the constitutive expression, to contrast the results of the sensitivity coefficients and the equilibrium points of the model with the results of the MATLAB files.
