@@ -14,6 +14,10 @@ robust_sensitivity_simplified_model.m -> This MATLAB file contains the results o
 
 michaelis_menten_qualitative.m -> This MATLAB file studies positive and negative self-regulation, comparing the autoregulation with the constitutive expression, applying the Michaelis-Menten dynamics. The constitutive expression, positive autoregulation and negative autoregulation are studied separately, obtaining the equilibrium points, studying the stability of the points, the sensitivity coefficients and the response time.
 
-simplied_model.cps -> This COPASI file contains the simplified model to compare the results of the sensitivity coefficients and the equilibrium points of the model with the results of the MATLAB files.
+6-dimensional.cps -> This COPASI file contains the 6-dimensional model, with the transcription factor X fixed, to compare the results of the equilibrium points of the model and the stability of the equilibrium points with the results of the MATLAB files.
+
+4-dimensional.cps -> This COPASI file contains the 4-dimensional model, with the transcription factor X fixed, to compare the results of the equilibrium points of the model and the stability of the equilibrium points with the results of the MATLAB files.
+
+simplied_model.cps -> This COPASI file contains the simplified model to compare the results of the sensitivity coefficients, the equilibrium points and the stability of the model with the results of the MATLAB files.
 
 autoregulacion.cps -> This COPASI file contains the system of equations to study positive and negative autoregulation, together with the constitutive expression, to contrast the results of the sensitivity coefficients and the equilibrium points of the model with the results of the MATLAB files.
